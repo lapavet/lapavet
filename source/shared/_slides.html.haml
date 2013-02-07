@@ -1,0 +1,29 @@
+#slides.carousel.slide
+  .carousel-inner
+    .item.active
+      %img(src='/images/slides/slide01.jpg')
+      .carousel-caption
+    .item
+      %img(src='/images/slides/slide02.jpg')
+      .carousel-caption
+    .item
+      %img(src='/images/slides/slide03.jpg')
+      .carousel-caption
+    .item
+      %img(src='/images/slides/slide04.jpg')
+      .carousel-caption
+    .item
+      %img(src='/images/slides/slide05.jpg')
+      .carousel-caption
+    .item
+      %img(src='/images/slides/slide06.jpg')
+      .carousel-caption
+    .item
+      %img(src='/images/slides/slide07.jpg')
+      .carousel-caption
+
+  %a.carousel-control.left(href='#slides' data-slide='prev') &lsaquo;
+  %a.carousel-control.right(href='#slides' data-slide='next') &rsaquo;
+
+:javascript
+  $('.carousel').carousel()
